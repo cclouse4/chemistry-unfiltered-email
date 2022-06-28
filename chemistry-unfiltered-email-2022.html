@@ -573,9 +573,75 @@
 		padding-left: 72px !important;
 		padding-right: 72px !important;
 	}
-} </style></head>
+}
+u + .body .gmail-blend-screen { background:#000; color:#fff; mix-blend-mode:screen; }
+u + .body .gmail-blend-difference { background:#000; color:#fff; mix-blend-mode:difference; }
+
+.block-padding {
+	padding:72px;
+}
+
+@media only screen and (max-width: 480px) {
+	.block-padding {
+		padding: 36px;
+	}
+}
+
+.left-to-center {
+	text-align: left;
+}
+.right-to-center {
+	text-align: right;
+}
+
+@media only screen and (max-width: 480px) {
+	.left-to-center, .right-to-center {
+		text-align: center;
+		padding-top: 18px;
+	}
+}
+
+.full-width-article-image {
+	padding:0;
+}
+@media only screen and (max-width: 480px) {
+	.full-width-article-image {
+		padding-top: 18px;
+	}
+}
+.social-icon-padding {
+	padding-left: 12px;
+}
+@media only screen and (max-width: 480px) {
+	.social-icon-padding {
+		padding-top: 18px;
+		padding-left: 0;
+		padding-right: 12px;
+}
+}
+
+.col-large {
+	max-width: 304px;
+}
+
+.col-small {
+	max-width: 152px;
+}
+
+.col-layout {
+	padding:0 72px 120px 72px;
+}
+@media only screen and (max-width: 480px) {
+	.col-small, .col-large {
+		max-width: 100%;
+	}
+	.col-layout {
+	padding:0 18px 72px 18px;
+}
+}
+</style></head>
   
-	<body>
+	<body class="body">
 		<!--*|IF:MC_PREVIEW_TEXT|*-->
 		<!--[if !gte mso 9]><!---->
 		<span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">
@@ -722,10 +788,9 @@
 																																			<br />
 																																			<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
 																																			<br /><br />
-																																			<a class="arrow-cta" href="#" style="color:black; text-decoration:none;">Read More</a>
-																																				<span>&nbsp;&nbsp;&nbsp;</span>
-																																				<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/f00def76-77f7-8166-9329-a43ad8585eba.png" width="48" height="14" />
-																																			
+																																			<a class="arrow-cta" href="#">
+																																				<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/386d9e5d-86bd-915b-bb66-17752b5a7ed8.jpg" width="165" height="40" />
+																																			</a>
 																																		</td>
 																																	</tr>
 																																</tbody>
@@ -762,50 +827,6 @@
 																													</tr>
 																												</tbody>
 																											</table>
-																											<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnBoxedTextBlock" style="min-width:100%;">
-																												<!--[if gte mso 9]>
-																													<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
-																														<![endif]-->
-																														<tbody class="mcnBoxedTextBlockOuter">
-																															<tr>
-																																<td valign="top" class="mcnBoxedTextBlockInner">
-																																	<!--[if gte mso 9]>
-																																		<td align="center" valign="top" ">
-																																			<![endif]-->
-																																			<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnBoxedTextContentContainer">
-																																				<tbody>
-																																					<tr>
-																																						<td style="padding-top:0; padding-left:0; padding-bottom:0; padding-right:0;">
-																																							<table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #FFF500;">
-																																								<tbody>
-																																									<tr>
-																																										<td mc:edit="color-block-yellow" mc:hideable valign="top" class="mcnTextContent" style="padding: 72px;color: #000000;font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;font-size: 16px;font-weight: normal;line-height: 150%;text-align: left;">
-																																											<h2>Article Title</h2>
-																																											<br />
-																																											<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
-																																											<br /><br />
-																																											<a class="arrow-cta" href="#" style="color:black; text-decoration:none;">Read More</a>
-																																												<span>&nbsp;&nbsp;&nbsp;</span>
-																																												<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/9d976731-95ab-528e-3872-793b4ef767c3.png" width="48" height="14" />
-																																										</td>
-																																									</tr>
-																																								</tbody>
-																																							</table>
-																																						</td>
-																																					</tr>
-																																				</tbody>
-																																			</table>
-																																			<!--[if gte mso 9]>
-																																			</td>
-																																			<![endif]-->
-																																			<!--[if gte mso 9]>
-																																			</tr>
-																																		</table>
-																																		<![endif]-->
-																																	</td>
-																																</tr>
-																															</tbody>
-																														</table>
 																														<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnBoxedTextBlock" style="min-width:100%;">
 																															<!--[if gte mso 9]>
 																																<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
@@ -820,17 +841,23 @@
 																																							<tbody>
 																																								<tr>
 																																									<td style="padding-top:0; padding-left:0; padding-bottom:0; padding-right:0;">
-																																										<table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #FF5477;">
+																																										<table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important; padding:0;">
 																																											<tbody>
 																																												<tr>
-																																													<td mc:edit="color-block-pink" mc:hideable valign="top" class="mcnTextContent" style="padding: 72px;color: #000000;font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;font-size: 16px;font-weight: normal;line-height: 150%;text-align: left;">
-																																														<h2>Article Title</h2>
-																																														<br />
-																																														<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
-																																														<br /><br />
-																																														<a class="arrow-cta" href="#" style="color:black; text-decoration:none;">Read More</a>
-																																															<span>&nbsp;&nbsp;&nbsp;</span>
-																																															<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/8e2bf5a2-7273-ada9-a328-3beb3a8fbcd9.png" width="48" height="14" />
+																																													<td mc:edit="color-block-pink" mc:hideable valign="top" class="mcnTextContent" style="padding: 0;">
+																																														<div class="block-padding" style="background:#FF5477; background-image:linear-gradient(#FF5477,#FF5477);">
+																																															<div class="gmail-blend-screen">
+																																																<div class="gmail-blend-difference">
+																																																	<h2 style="color:white;">Article Title</h2>
+																																																	<br />
+																																																	<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;color:white;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
+																																																	<br /><br />
+																																																	<a class="arrow-cta" href="#">
+																																																		<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/634e0cbe-a2a1-7d96-8649-1054870d9e06.jpg" width="165" height="40" />
+																																																	</a>
+																																																</div>
+																																															</div>
+																																														</div>
 																																													</td>
 																																												</tr>
 																																											</tbody>
@@ -864,17 +891,23 @@
 																																										<tbody>
 																																											<tr>
 																																												<td style="padding-top:0; padding-left:0; padding-bottom:0; padding-right:0;">
-																																													<table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #000000;">
+																																													<table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important; padding:0;">
 																																														<tbody>
 																																															<tr>
-																																																<td mc:edit="color-block-black" mc:hideable valign="top" class="mcnTextContent" style="padding: 72px;color: #ffffff;font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;font-size: 16px;font-weight: normal;line-height: 150%;text-align: left;">
-																																																	<h2 style="color:white; background-color:black;">Article Title</h2>
-																																																	<br />
-																																																	<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;background-color:black;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
-																																																	<br /><br />
-																																																	<a class="arrow-cta" href="#" style="color:white; text-decoration:none;background-color:black;">Read More</a>
-																																																		<span>&nbsp;&nbsp;&nbsp;</span>
-																																																		<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/e6563350-e8cc-30e9-7904-4895747d2f31.png" width="48" height="14" />
+																																																<td mc:edit="color-block-black" mc:hideable valign="top" class="mcnTextContent" style="padding: 0;">
+																																																	<div class="block-padding" style="background:#000000; background-image:linear-gradient(#000000,#000000);">
+																																																		<div class="gmail-blend-screen">
+																																																			<div class="gmail-blend-difference">
+																																																				<h2 style="color:white;">Article Title</h2>
+																																																				<br />
+																																																				<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;color:white;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
+																																																				<br /><br />
+																																																				<a class="arrow-cta" href="#">
+																																																					<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/634e0cbe-a2a1-7d96-8649-1054870d9e06.jpg" width="165" height="40" />
+																																																				</a>
+																																																			</div>
+																																																		</div>
+																																																	</div>
 																																																</td>
 																																															</tr>
 																																														</tbody>
@@ -907,18 +940,24 @@
 																																												<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnBoxedTextContentContainer">
 																																													<tbody>
 																																														<tr>
-																																															<td style="padding-top:0; padding-left:0; padding-bottom:0; padding-right:0;background-color: #001AA6;">
-																																																<table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #001AA6;">
+																																															<td style="padding-top:0; padding-left:0; padding-bottom:0; padding-right:0;">
+																																																<table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important; padding:0;">
 																																																	<tbody>
 																																																		<tr>
-																																																			<td mc:edit="color-block-blue" mc:hideable valign="top" class="mcnTextContent" style="padding: 72px;color: #ffffff;font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;font-size: 16px;font-weight: normal;line-height: 150%;text-align: left;">
-																																																				<h2 style="color:white;background-color: #001AA6;">Article Title</h2>
-																																																				<br />
-																																																				<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;background-color: #001AA6;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
-																																																				<br /><br />
-																																																				<a class="arrow-cta" href="#" style="color:white; text-decoration:none;background-color: #001AA6;">Read More</a>
-																																																					<span>&nbsp;&nbsp;&nbsp;</span>
-																																																					<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/0eddafef-fb9d-e47e-9ecd-f3bc7cfd5203.png" width="48" height="14" />
+																																																			<td mc:edit="color-block-blue" mc:hideable valign="top" class="mcnTextContent" style="padding: 0;">
+																																																				<div class="block-padding" style="background:#001AA6; background-image:linear-gradient(#001AA6,#001AA6);">
+																																																					<div class="gmail-blend-screen">
+																																																						<div class="gmail-blend-difference">
+																																																							<h2 style="color:white;">Article Title</h2>
+																																																							<br />
+																																																							<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;color:white;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
+																																																							<br /><br />
+																																																							<a class="arrow-cta" href="#">
+																																																								<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/634e0cbe-a2a1-7d96-8649-1054870d9e06.jpg" width="165" height="40" />
+																																																							</a>
+																																																						</div>
+																																																					</div>
+																																																				</div>
 																																																			</td>
 																																																		</tr>
 																																																	</tbody>
@@ -957,7 +996,7 @@
 																																														<table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
 																																															<tbody>
 																																																<tr>
-																																																	<td mc:hideable class="mcnImageContent" valign="top" style="padding-right:0px; padding-left:0px; padding-top:0; padding-bottom:0; text-align:center;">
+																																																	<td mc:hideable class="mcnImageContent full-width-article-image" valign="top" style="text-align:center;">
 																																																		<img mc:edit="full-width-article-image" align="center" alt="" src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/dd68c1bc-c4df-8909-b74e-53358c0b1c10.jpg" width="600" style="max-width:600px; padding-bottom:0; display:inline !important; vertical-align:bottom;" class="mcnImage">
 																																																	</td>
 																																																</tr>
@@ -998,10 +1037,9 @@
 																																												<br />
 																																												<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
 																																												<br /><br />
-																																												<a class="arrow-cta" href="#" style="color:black; text-decoration:none;">Read More</a>
-																																													<span>&nbsp;&nbsp;&nbsp;</span>
-																																													<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/f00def76-77f7-8166-9329-a43ad8585eba.png" width="48" height="14" />
-																																												
+																																												<a class="arrow-cta" href="#">
+																																													<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/386d9e5d-86bd-915b-bb66-17752b5a7ed8.jpg" width="165" height="40" />
+																																												</a>
 																																											</td>
 																																											</tbody>
 																																										</table>
@@ -1072,10 +1110,9 @@
 																																																				<br />
 																																																				<span style="font-family:proxima-nova, roboto, helvetica, sans-serif;font-size: 16px; line-height:20px;">35 WORDS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eget dictum accumsan ultricies. Egestas id elementum, at feugiat bibendum purus. At malesuada lectus cursus nunc massa eu, dictumst. Ut volutpat eu duis sagittis eget felis.</span>
 																																																				<br /><br />
-																																																				<a class="arrow-cta" href="#" style="color:black; text-decoration:none;">Read More</a>
-																																																					<span>&nbsp;&nbsp;&nbsp;</span>
-																																																					<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/f00def76-77f7-8166-9329-a43ad8585eba.png" width="48" height="14" />
-																																																				
+																																																				<a class="arrow-cta" href="#">
+																																																					<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/386d9e5d-86bd-915b-bb66-17752b5a7ed8.jpg" width="165" height="40" />
+																																																				</a>
 																																																			</td>
 																																																			</tbody>
 																																																		</table>
@@ -1152,7 +1189,7 @@
 																																																</tr>
 																																													</tbody>
 																																												</table>
-																																												<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;background-image:url('https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/8a1ec485-170c-6445-9bda-a3643861778a.jpg');background-size:cover;background-repeat:no-repeat;background-position:center;background-color:#fbfbfb;">
+																																												<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;background-image:url('https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/8a1ec485-170c-6445-9bda-a3643861778a.jpg');background-size:cover;background-repeat:no-repeat;background-position:center;background-color:black;">
 																																													<tbody class="mcnTextBlockOuter">
 																																														<tr>
 																																															<td valign="top" class="mcnTextBlockInner" style="padding-top:0;">
@@ -1203,9 +1240,9 @@
 																																																													<div style="border:1px solid white;padding:54px">
 																																																														<h3>want to work with us?</h3>
 																																																														<br />
-																																																														<a class="arrow-cta" href="https://www.chemistryagency.com/careers/" style="color:white; text-decoration:none;">LET’s collab</a>
-																																																															<span>&nbsp;&nbsp;&nbsp;</span>
-																																																															<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/e6563350-e8cc-30e9-7904-4895747d2f31.png" width="48" height="14" />
+																																																														<a class="arrow-cta" href="https://www.chemistryagency.com/careers/">
+																																																															<img src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/6865c512-851f-f5d1-ffb8-8017b645a4dc.jpg" width="170" height="40" />
+																																																														</a>
 																																																													</div>
 																																																												</td>
 																																																											</tr>
@@ -1225,7 +1262,7 @@
 																																																				<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;background-color:black;">
 																																																					<tbody class="mcnTextBlockOuter">
 																																																						<tr>
-																																																							<td valign="top" class="mcnTextBlockInner" style="padding:0 72px 120px 72px;">
+																																																							<td valign="top" class="mcnTextBlockInner col-layout">
 																																																								<!--[if mso]>
 																																																									<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 																																																										<tr>
@@ -1233,10 +1270,10 @@
 																																																											<!--[if mso]>
 																																																												<td valign="top" width="390" style="width:390px;">
 																																																													<![endif]-->
-																																																													<table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:304px;background-color:black;" width="100%" class="mcnTextContentContainer">
+																																																													<table align="left" border="0" cellpadding="0" cellspacing="0" style="background-color:black;" width="100%" class="mcnTextContentContainer col-large">
 																																																														<tbody>
 																																																															<tr>
-																																																																<td valign="top" class="mcnTextContent" style="padding:0;color: #ffffff;font-size: 14px;line-height: 150%;text-align: left;">
+																																																																<td valign="top" class="mcnTextContent left-to-center" style="padding:0;color: #ffffff;font-size: 14px;line-height: 150%;">
 																																																																	<span style="font-family:proxima-nova, roboto, helvetica, sans-serif">© 2022 Chemistry Communications</span>
 																																																																</td>
 																																																															</tr>
@@ -1248,14 +1285,14 @@
 																																																													<!--[if mso]>
 																																																														<td valign="top" width="210" style="width:210px;">
 																																																															<![endif]-->
-																																																															<table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:152px; background-color:black;" width="100%" class="mcnTextContentContainer">
+																																																															<table align="left" border="0" cellpadding="0" cellspacing="0" style=" background-color:black;" width="100%" class="mcnTextContentContainer col-small">
 																																																																<tbody>
 																																																																	<tr>
-																																																																		<td valign="top" class="mcnTextContent" style="padding:0;color: #ffffff;font-size: 16px;line-height: 150%;text-align: right;">
-																																																																			<a href="https://www.facebook.com/chemistryagency"><img width="20" height="20" src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/9beeeed5-44e0-07b9-c064-e8ee8ffaec8c.png" style="padding-left: 12px;" alt="Facebook"/></a>
-																																																																			<a href="https://twitter.com/visitthelab"><img width="20" height="20" src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/96ac58d1-a577-2304-ffea-925e5131002f.png" style="padding-left: 12px;" alt="Twitter"/></a>
-																																																																			<a href="https://www.instagram.com/visitthelab/"><img width="20" height="20" src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/c17668c0-ddfc-fd6e-8ca8-bb4303efe842.png" style="padding-left: 12px;" alt="Instagram"/></a>
-																																																																			<a href="https://www.linkedin.com/company/chemistryagency"><img width="20" height="20" src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/6cb04d37-702d-67d7-e93c-028fa66d7853.png" style="padding-left: 12px;" alt="LinkedIn"/></a>
+																																																																		<td valign="top" class="mcnTextContent right-to-center" style="padding:0;color: #ffffff;font-size: 16px;line-height: 150%;">
+																																																																			<a href="https://www.facebook.com/chemistryagency"><img width="20" height="20" src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/9beeeed5-44e0-07b9-c064-e8ee8ffaec8c.png" class="social-icon-padding" alt="Facebook"/></a>
+																																																																			<a href="https://twitter.com/visitthelab"><img width="20" height="20" src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/96ac58d1-a577-2304-ffea-925e5131002f.png" class="social-icon-padding" alt="Twitter"/></a>
+																																																																			<a href="https://www.instagram.com/visitthelab/"><img width="20" height="20" src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/c17668c0-ddfc-fd6e-8ca8-bb4303efe842.png" class="social-icon-padding" alt="Instagram"/></a>
+																																																																			<a href="https://www.linkedin.com/company/chemistryagency"><img width="20" height="20" src="https://mcusercontent.com/3e09d44ff11441ed16ea08a1d/images/6cb04d37-702d-67d7-e93c-028fa66d7853.png" class="social-icon-padding" alt="LinkedIn"/></a>
 																																																																		</td>
 																																																																	</tr>
 																																																																</tbody>
